@@ -1,6 +1,6 @@
 var carsJson = JSON.parse(cars);
 
-console.log(carsJson);
+// console.log(carsJson);
 
 for (let i = 0; i < carsJson.length; i++) {
 
@@ -59,5 +59,25 @@ for (let i = 0; i < carsJson.length; i++) {
     imgMaxiPrice.appendChild(imgMaxiPriceNode);
     document.getElementById("textContainer" + [i]).appendChild(imgMaxiPrice);
 
-    //cardMini add eventlistener 
+}
+
+let cardMinis = document.querySelectorAll("[id*=cardMini]");
+let cardMaxis = document.querySelectorAll("[id*=cardMaxi]");
+let cardContainers = document.querySelectorAll("[id*=cardContainer]");
+
+// console.log(cardMinis);
+
+for (let i = 0; i < cardMinis.length; i++){
+    cardMinis[i].addEventListener("click", function(){
+        cardMaxis[i].style.display = "flex";
+        cardContainers[i].setAttribute("style", "width: 100%;");
+        cardMinis[i].style.display = "none";
+    });
+
+    cardMaxis[i].addEventListener("click", function(){
+        cardMinis[i].style.display = "block";
+        cardContainers[i].setAttribute("style", "width: auto;");
+        cardMaxis[i].style.display = "none";
+
+    });
 }

@@ -58,11 +58,14 @@ h2 {
 
 [id*=cardMini] {
     margin: 2vh;
-    background-color: gray;
+    background-color: lightgray;
 }
 
 [id*=cardMini] img {
     padding: 2vh;
+    width: 16vw;
+    height: 20vh;
+    object-fit: cover;
 }
 
 [id*=cardMini] p {
@@ -76,12 +79,15 @@ h2 {
 
 [id*=cardMaxi] {
     margin: 2vh;
-    display: flex;
-    background-color: gray;
+    display: none; /* set with addEventlistener to "flex" */
+    background-color: lightgray;
 }
 
 [id*=cardMaxi] img {
     padding: 2vh;
+    width: 30vw;
+    height: 30vh;
+    object-fit: cover;
 }
 
 [id*=textContainer] {
@@ -89,7 +95,17 @@ h2 {
     flex-direction: column;
     justify-content: space-around;
     padding: 2vh;
-    background-color: gray;
+    background-color: lightgray;
+}
+
+[id*=textContainer] p:first-of-type {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+[id*=textContainer] p:last-of-type {
+    font-weight: bold;
+    font-size: 120%;
 }
 
 footer {
