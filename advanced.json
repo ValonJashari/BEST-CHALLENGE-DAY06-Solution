@@ -1,13 +1,23 @@
 let books = `
-[
-    {
+[{
         "title": "The King of Drugs",
         "author": "Nora Berret",
         "read": false,
-        "img": "",
+        "img": "img/theKingOf.jpeg",
+        "rating": "3",
+        "type": "fiction"
+}, {
+        "title": "Twilight",
+        "author": "Stephenie Meyer",
+        "read": true,
+        "img": "img/twilight.jpg",
+        "rating": "3",
+        "type": "fiction"
+}, {
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "read": true,
+        "img": "img/clean-code.jpg",
         "rating": "3",
         "type": "non-fiction"
-    }
-]
-
-`
+    }]`
