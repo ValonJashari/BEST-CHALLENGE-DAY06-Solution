@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+img {
+    height: 25vh;
+    object-fit: contain;
+}
+
+h1 {
+    margin: 0 auto;
+    color: white;
+    font-size: 300%;
+}
+
+/* Navigation */
+
+nav {
+    background-color: rgb(85, 85, 85);
+}
+
+nav ul {
+    padding: 2vh;
+    padding-left: 3vw;
+    color: white;
+}
+
+/* Main */
+
+h2 {
+    text-align: center;
+    padding: 5vh;
+    font-size: 200%;
+    font-weight: 700;
+    color: black;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Mini - Card */
+
+[id*=cardMini] {
+    margin: 2vh;
+    background-color: gray;
+}
+
+[id*=cardMini] img {
+    padding: 2vh;
+}
+
+[id*=cardMini] p {
+    padding: 2vh 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* Maxi - Card */
+
+[id*=cardMaxi] {
+    margin: 2vh;
+    display: flex;
+    background-color: gray;
+}
+
+[id*=cardMaxi] img {
+    padding: 2vh;
+}
+
+[id*=textContainer] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2vh;
+    background-color: gray;
+}
+
+footer {
+    align-items: center;
+    background-color: black;
+}
+
+footer p {
+    text-align: center;
+    padding: 5vh;
+    font-size: 200%;
+    color: white;
+}
