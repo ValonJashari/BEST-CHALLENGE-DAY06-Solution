@@ -1,0 +1,83 @@
+let employees = `
+[
+    {
+        "UniqueId": "1",
+        "firstName": "Patrik",
+        "lastName": "Jonathan",
+        "emailAddress": "patrik.k.jonathan@gmail.com",
+        "jobTitleName": "Developer",
+        "salary": "3000"
+    },
+    {
+        "UniqueId": "2",
+        "firstName": "Sam",
+        "lastName": "Williams",
+        "emailAddress": "sam.w.@gmail.com",
+        "jobTitleName": "Developer",
+        "salary": "3100"
+    },
+    {
+        "UniqueId": "3",
+        "firstName": "Peter",
+        "lastName": "Johnson",
+        "emailAddress": "p.johnson.@gmail.com",
+        "jobTitleName": "Caretaker",
+        "salary": "1800"
+    },
+    {
+        "UniqueId": "4",
+        "firstName": "Petra",
+        "lastName": "Jung",
+        "emailAddress": "p.kjung@gmail.com",
+        "jobTitleName": "Lead Developer",
+        "salary": "3700"
+    },
+    {
+        "UniqueId": "5",
+        "firstName": "Jens",
+        "lastName": "Jensman",
+        "emailAddress": "j.jensman@gmail.com",
+        "jobTitleName": "IT Support",
+        "salary": "2000"
+    },
+    {
+        "UniqueId": "6",
+        "firstName": "Susi",
+        "lastName": "Suselfrau",
+        "emailAddress": "s.suselfrau@gmail.com",
+        "jobTitleName": "JS Developer",
+        "salary": "4000"
+    },
+    {
+        "UniqueId": "7",
+        "firstName": "Sandra",
+        "lastName": "Jonathan",
+        "emailAddress": "s.j@gmail.com",
+        "jobTitleName": "Developer",
+        "salary": "3300"
+    },
+    {
+        "UniqueId": "8",
+        "firstName": "Patsy",
+        "lastName": "Jordan",
+        "emailAddress": "p.jordan@gmail.com",
+        "jobTitleName": "Manager",
+        "salary": "5000"
+    },
+    {
+        "UniqueId": "9",
+        "firstName": "Patrik",
+        "lastName": "Maier",
+        "emailAddress": "patrik.maier@gmail.com",
+        "jobTitleName": "Developer",
+        "salary": "1100"
+    },
+    {
+        "UniqueId": "10",
+        "firstName": "Marco",
+        "lastName": "Müller",
+        "emailAddress": "m.m@gmail.com",
+        "jobTitleName": "Manager",
+        "salary": "3000"
+    }
+]`
