@@ -1,0 +1,13 @@
+let books = `
+[
+    {
+        "title": "The King of Drugs",
+        "author": "Nora Berret",
+        "read": false,
+        "img": "",
+        "rating": "3",
+        "type": "non-fiction"
+    }
+]
+
+`
